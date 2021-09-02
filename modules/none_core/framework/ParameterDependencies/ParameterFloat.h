@@ -52,7 +52,7 @@ namespace none {
             return defaultValue;
         }
 
-        float getValueForText(const juce::String &text) const override {
+        float getValueForText(const juce::String& /*text*/) const override {
             return 0;
         }
     };

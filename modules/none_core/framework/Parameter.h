@@ -154,13 +154,13 @@ namespace none {
                 case ParameterBase::ParamType::Bool:
                 {
                     auto* parameter = dynamic_cast<ParameterBool*>(getParam());
-                    parameter->setValueNotifyingHost((bool)updatedValue);
+                    parameter->setValueNotifyingHost((float)(bool)updatedValue);
                 }
                     break;
                 case ParameterBase::ParamType::Int:
                 {
                     auto* parameter = dynamic_cast<ParameterInt*>(getParam());
-                    parameter->setValueNotifyingHost((int)updatedValue);
+                    parameter->setValueNotifyingHost((float)(int)updatedValue);
                 }
                     break;
                 case ParameterBase::ParamType::Float:

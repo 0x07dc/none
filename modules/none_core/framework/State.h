@@ -40,14 +40,14 @@ namespace none {
 
 
         unique_ptr<ParameterBase> clientParameter = nullptr;
-        std::function<void(float)> clientParameterUpdateCallback = [](float newValue){};
+        std::function<void(float)> clientParameterUpdateCallback = [](float /*newValue*/) {};
 
         State() = delete;
         State(const State& state) = default;
 
         explicit State(
             StateManager* stateManager,
-            std::function<void(float)> newClientParameterUpdateCallback = [](float newValue){}) :
+            std::function<void(float)> newClientParameterUpdateCallback = [](float /*newValue*/) {}) :
             stateManager(stateManager),
             clientParameterUpdateCallback(std::move(newClientParameterUpdateCallback)){};
 

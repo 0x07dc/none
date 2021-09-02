@@ -30,7 +30,7 @@ namespace none {
             return (float)defaultValue;
         }
 
-        float getValueForText(const juce::String &text) const override {
+        float getValueForText(const juce::String & /*text*/) const override {
             return 0;
         }
     };

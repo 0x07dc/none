@@ -68,7 +68,7 @@ void FrequencySlider::onClientParameterUpdate(float newValue) {
     valueChanged();
 }
 
-void FrequencySliderState::onObservedStateChange(const string& subjectName) {
+void FrequencySliderState::onObservedStateChange(const string& /*subjectName*/) {
 
 }
 
