@@ -49,6 +49,7 @@ declaration in `PluginProcessor.h`.
 
 ## License
 This framework contains two different licenses. This repository contains JUCE module code 
-for convenience. A licence document is included in the `juce_modules` folder which details the JUCE license.
+for convenience and as a way of preserving the framework's integrity. 
+A licence document is included in the `juce_modules` folder which details the JUCE license.
 
 Aside from JUCE, this library is licensed with the MIT license, making it very free.
